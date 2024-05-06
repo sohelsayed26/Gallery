@@ -52,29 +52,27 @@ h1{
 }
 
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 600px)
+ {
     .GridImg {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .img34 {
-        width: 30px;
+        width: 100px;
         height: auto;
-        margin-bottom: 10px; 
+        float: left;
+
+    
     }
 
-    .viewImagebox {
-        margin-top: 20px; 
-    }
-
-    .imageView {
-        max-width: 100%;
+    .img34{
+        width: 100px;
         height: auto;
-        margin: 50 auto;
-        display: block;
     }
+
+    .imageView{
+        width: 400px;
+        margin: 2px;
+        height: auto;
+    
+    }
+
 }
