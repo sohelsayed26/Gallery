@@ -62,7 +62,7 @@ h1{
     }
 
     .img34 {
-        width: calc(75% - 10px);
+        width: 30px;
         height: auto;
         margin-bottom: 10px; 
     }
@@ -74,7 +74,7 @@ h1{
     .imageView {
         max-width: 100%;
         height: auto;
-        margin: 0 auto;
+        margin: 50 auto;
         display: block;
     }
 }
